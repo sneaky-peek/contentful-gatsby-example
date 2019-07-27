@@ -29,6 +29,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "preview": "gatsby develop --port $JAM_PREVIEW_PORT --host $JAM_PREVIEW_HOST",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
